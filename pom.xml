@@ -139,6 +139,16 @@
     </dependencies>
 
 	<repositories>
+		<repository>
+ 		<id>gbhimireddy-visualstudio.com-maven-project</id>
+ 		<url>https://gbhimireddy.pkgs.visualstudio.com/_packaging/maven-project/maven/v1</url>
+ 		<releases>
+  		<enabled>true</enabled>
+		</releases>
+ 		<snapshots>
+ 	 	<enabled>true</enabled>
+ 		</snapshots>
+		</repository>
           <repository>
             <id>Central</id>
             <name>Central</name>
